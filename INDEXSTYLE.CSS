@@ -1,0 +1,99 @@
+/* Reset Default Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Background Styling */
+body {
+    background: linear-gradient(135deg, #391f5e, #6e2c74, #701f58);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+/* Logo Image */
+.logo {
+    margin: 20px auto;
+    width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* Heading Styling */
+.heading {
+    text-align: center;
+    padding: 20px;
+    background: rgba(138, 58, 130, 0.8);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 60%;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Menu Bar */
+.menu-bar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Menu Items */
+.menu-bar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+/* Menu Item Styling */
+.menu-bar ul li {
+    margin: 10px;
+    padding: 12px 20px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    border-radius: 8px;
+}
+
+/* Menu Item Links */
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Active and Hover Effects */
+.active, .menu-bar ul li:hover {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 200, 255, 0.4);
+    border-radius: 8px;
+}
+
+/* Menu Item Text */
+.menu-bar ul li a h6 {
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
